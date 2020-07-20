@@ -1,3 +1,7 @@
+<script>
+  import { likecount } from "../store/store.js";
+</script>
+
 <style>
   .Header {
     background-color: white;
@@ -66,6 +70,7 @@
         <ul>
           <li>
             <i class="fas fa-heart" />
+            {$likecount}
           </li>
           <li>
             <i class="fas fa-user-alt" />
